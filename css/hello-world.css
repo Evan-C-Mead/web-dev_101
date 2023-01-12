@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: goldenrod;
+    background-color: darkslategrey;
 }
 
 #main {
@@ -16,6 +16,7 @@ body {
 }
 
 #hello {
+    color: black;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -29,5 +30,5 @@ body {
     align-self: center;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 200;
+    font-weight: 300;
 }
