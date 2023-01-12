@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     height: 100%;
     width: 100%;
     padding: 0;
@@ -8,4 +9,25 @@ body, html {
 
 body {
     background-color: goldenrod;
+}
+
+#main {
+    margin-top: 10px;
+}
+
+#hello {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#time {
+    color: black;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
 }
