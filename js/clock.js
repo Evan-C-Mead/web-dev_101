@@ -27,9 +27,7 @@ function displayTime() {
     document.getElementById('time').innerHTML = time;
     document.getElementById('time').textContent = time;
 
-    // setTimeout(displayTime, 1000);
-
-    console.log(date);
+    setTimeout(displayTime, 1000);
 }
 
 displayTime();
