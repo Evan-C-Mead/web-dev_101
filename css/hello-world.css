@@ -16,7 +16,7 @@ body {
 }
 
 #hello {
-    color: black;
+    color: goldenrod;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -29,5 +29,5 @@ body {
     display: flex;
     align-self: center;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'digital-clock-font', monospace;
 }
