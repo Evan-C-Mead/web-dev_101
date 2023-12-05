@@ -1,7 +1,6 @@
 "use strict";
 
 function displayTime() {
-    // building time variables for clock
     let date = new Date();
     let hr = date.getHours();
     let min = date.getMinutes();
@@ -21,7 +20,7 @@ function displayTime() {
     min = (min < 10) ? "0" + min : min;
     sec = (sec < 10) ? "0" + sec : sec;
 
-    let time = hr + ":" + min + ":" + sec + " " + tod;
+    let time = `${hr}:${min}:${sec} ${tod}`;
 
     document.getElementById("time").innerText = time;
     document.getElementById('time').innerHTML = time;

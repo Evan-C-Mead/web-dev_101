@@ -1,35 +1,33 @@
 "use strict";
 
-function sayHello() {
+function sayGreeting() {
     const date = new Date();
     const hrs = date.getHours();
     let friend = 'friend';
     let greeting;
 
     if (hrs < 4) {
-        greeting = "You're a night owl ";
+        greeting = `You're a night owl ${friend}`;
     }
     else if (hrs < 11) {
-        greeting = "Good morning, ";
+        greeting = `Good morning, ${friend}`;
     }
     else if (hrs < 13) {
-        greeting = "Lunch time ";
+        greeting = `Lunch time ${friend}`;
     }
     else if (hrs < 17) {
-        greeting = "Good afternoon ";
+        greeting = `Good afternoon ${friend}`;
     }
     else if (hrs < 22) {
-        greeting = "Good evening, ";
+        greeting = `Good evening, ${friend}`;
     }
     else {
-        greeting = "Go to bed ";
+        greeting = `Go to bed ${friend}`;
     }
 
-    let hello = greeting.toLocaleUpperCase() + "" + friend.toLocaleUpperCase();
-
-    document.getElementById("hello").innerText = hello;
-    document.getElementById('hello').innerHTML = hello;
-    document.getElementById('hello').textContent = hello;
+    document.getElementById('greeting').innerText = greeting.toLocaleUpperCase();
+    document.getElementById('greeting').innerHTML = greeting.toLocaleUpperCase();
+    document.getElementById('greeting').textContent = greeting.toLocaleUpperCase();
 }
 
-sayHello();
+sayGreeting();

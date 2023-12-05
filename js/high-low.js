@@ -4,9 +4,9 @@ function guess() {
     let randNum = Math.floor(Math.random() * 100 + 1);
     let guessCount = 1;
 
-    console.log(randNum);
+    console.log(`${randNum} is the number to guess`);
 
-    document.getElementById("submitguess").onclick = function () {
+    document.getElementById("submitGuess").onclick = function () {
         let currentGuess = document.getElementById("guessField").value;
 
         if (currentGuess == randNum && guessCount == 1) {

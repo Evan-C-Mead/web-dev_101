@@ -15,7 +15,7 @@ body {
     margin-top: 50px;
 }
 
-#hello {
+#greeting {
     color: goldenrod;
     display: flex;
     align-self: center;
