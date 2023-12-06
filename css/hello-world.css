@@ -1,49 +1,51 @@
 body,
 html {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Ubuntu, sans-serif;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Ubuntu, sans-serif;
 }
 
 body {
-    background-color: darkslategrey;
+  background-color: darkslategrey;
 }
 
 #main {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 #greeting {
-    color: goldenrod;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    margin: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: goldenrod;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #time {
-    color: papayawhip;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    font-family: 'digital-clock-font', monospace;
+  color: papayawhip;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-family: "digital-clock-font", monospace;
 }
 
 #guess {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    margin: 20px 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 20px 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #guessText {
-    margin-right: 10px;
-    text-transform: uppercase;
-    color: goldenrod;
+  margin-right: 10px;
+  text-transform: uppercase;
+  color: goldenrod;
 }
 
 /* want to style the form and submit button */
