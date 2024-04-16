@@ -7,17 +7,19 @@ function sayGreeting() {
   let greeting;
 
   if (hrs < 4) {
-    greeting = `You're a night owl ${friend}`;
+    greeting = `You're a night owl ${friend}.`;
   } else if (hrs < 11) {
-    greeting = `Good morning, ${friend}`;
+    greeting = `Good morning, ${friend}.`;
   } else if (hrs < 13) {
-    greeting = `Lunch time ${friend}`;
+    greeting = `Lunch time ${friend}.`;
   } else if (hrs < 17) {
-    greeting = `Good afternoon ${friend}`;
+    greeting = `Good afternoon ${friend}.`;
+  } else if (hrs < 19) {
+    greeting = `Beef. It's what's for dinner.`;
   } else if (hrs < 22) {
-    greeting = `Good evening, ${friend}`;
+    greeting = `Good evening, ${friend}.`;
   } else {
-    greeting = `Go to bed ${friend}`;
+    greeting = `${friend}, go to bed.`;
   }
 
   document.getElementById('greeting').innerText = greeting.toLocaleUpperCase();

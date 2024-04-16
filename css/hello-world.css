@@ -16,13 +16,14 @@ body {
 }
 
 #greeting {
-  color: goldenrod;
+  color: #ffb700;
   display: flex;
   align-self: center;
   justify-content: center;
   margin: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Orbitron";
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
 }
 
 #time {
