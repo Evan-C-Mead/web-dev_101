@@ -8,6 +8,8 @@ function sayGreeting() {
 
   if (hrs < 4) {
     greeting = `You're a night owl ${friend}.`;
+  } else if (hrs < 7) {
+    greeting = `Coffee time.`;
   } else if (hrs < 11) {
     greeting = `Good morning, ${friend}.`;
   } else if (hrs < 13) {
