@@ -11,7 +11,7 @@ function sayThankYou() {
   } else if (hrs < 16) {
     thankYou = `Thanks for stopping by.`;
   } else {
-    thankYou = `See you next time ${friend}.`
+    thankYou = `See you next time, ${friend}.`
   }
 
   document.getElementById('thank-you').innerText = thankYou.toLocaleUpperCase();
