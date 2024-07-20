@@ -8,7 +8,7 @@ function startingSoon() {
   let startSoon;
 
   if (hrs < 8) {
-    startSoon = `Salutations, ${friend}. See you soon.`;
+    startSoon = `Hello, ${friend}. See you soon.`;
   } else if (hrs < 16) {
     startSoon = `${broham} is on the way.`;
   } else {
