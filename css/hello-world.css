@@ -15,7 +15,7 @@ body {
   margin-top: 50px;
 }
 
-#greeting, #brb, #thank-you, #starting-soon {
+#greeting, #brb, #thank-you, #starting-soon, #oops {
   color: #ffb700;
   display: flex;
   align-self: center;
