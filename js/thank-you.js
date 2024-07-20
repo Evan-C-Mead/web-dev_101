@@ -7,7 +7,7 @@ function sayThankYou() {
   let thankYou;
 
   if (hrs < 8) {
-    thankYou = `Stream is ending. Thank you, ${friend}.`;
+    thankYou = `The stream is ending. Thank you, ${friend}.`;
   } else if (hrs < 16) {
     thankYou = `Thanks for stopping by.`;
   } else {
