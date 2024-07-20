@@ -7,7 +7,7 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launching hello-world.html",
+            "name": "Launch page",
             "file": "${workspaceFolder}/hello-world.html",
             "url": "http://localhost:8080"
         }
