@@ -13,7 +13,6 @@ function sayThankYou() {
   }
 
   document.getElementById('thank-you').innerText = thankYou.toLocaleUpperCase();
-  document.getElementById('thank-you').innerHTML = thankYou.toLocaleUpperCase();
   document.getElementById('thank-you').textContent = thankYou.toLocaleUpperCase();
 }
 

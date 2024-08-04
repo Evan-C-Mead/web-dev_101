@@ -25,7 +25,6 @@ function sayGreeting() {
   }
 
   document.getElementById('greeting').innerText = greeting.toLocaleUpperCase();
-  document.getElementById('greeting').innerHTML = greeting.toLocaleUpperCase();
   document.getElementById('greeting').textContent = greeting.toLocaleUpperCase();
 }
 

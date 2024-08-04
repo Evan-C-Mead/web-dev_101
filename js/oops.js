@@ -18,7 +18,6 @@ function sayOops() {
   }
 
   document.getElementById('oops').innerText = oops.toLocaleUpperCase();
-  document.getElementById('oops').innerHTML = oops.toLocaleUpperCase();
   document.getElementById('oops').textContent = oops.toLocaleUpperCase();
 }
 

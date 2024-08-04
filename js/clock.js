@@ -23,7 +23,6 @@ function displayTime() {
   let time = `${hr}:${min}:${sec} ${tod}`;
 
   document.getElementById('time').innerText = time;
-  document.getElementById('time').innerHTML = time;
   document.getElementById('time').textContent = time;
 
   setTimeout(displayTime, 1000);

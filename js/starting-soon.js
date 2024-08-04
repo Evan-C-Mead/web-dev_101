@@ -16,7 +16,6 @@ function startingSoon() {
   }
 
   document.getElementById('starting-soon').innerText = startSoon.toLocaleUpperCase();
-  document.getElementById('starting-soon').innerHTML = startSoon.toLocaleUpperCase();
   document.getElementById('starting-soon').textContent = startSoon.toLocaleUpperCase();
 }
 

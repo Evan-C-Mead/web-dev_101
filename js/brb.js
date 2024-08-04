@@ -16,7 +16,6 @@ function sayBRB() {
   }
 
   document.getElementById('brb').innerText = brb.toLocaleUpperCase();
-  document.getElementById('brb').innerHTML = brb.toLocaleUpperCase();
   document.getElementById('brb').textContent = brb.toLocaleUpperCase();
 }
 
