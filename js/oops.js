@@ -12,7 +12,7 @@ function sayOops() {
   } else if (hrs < 16) {
     oops = `${broham} needs to select a source.`
   } else if (hrs < 22) {
-    oops = `Oops. Technical difficulties. Standby, ${friend}.`
+    oops = `Oops. Standby, ${friend}.`
   } else {
     oops = `... '-' ...`
   }
