@@ -10,7 +10,7 @@ function sayOops() {
   if (hrs < 8) {
     oops = `You weren't supposed to see this...`;
   } else if (hrs < 16) {
-    oops = `${broham} needs to select a source.`
+    oops = `${broham}, please select a source.`
   } else if (hrs < 22) {
     oops = `Oops. Standby, ${friend}.`
   } else {
