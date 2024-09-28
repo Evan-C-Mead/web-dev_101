@@ -7,14 +7,14 @@ function sayOops() {
   let friend = 'friend';
   let oops;
 
-  if (hrs < 8) {
-    oops = `You weren't supposed to see this...`;
+  if (hrs < 4) {
+    oops = `... '-' ...`
+  } else if (hrs < 8) {
+    oops = `You weren't supposed to see this...`
   } else if (hrs < 16) {
     oops = `${broham}, please select a source.`
-  } else if (hrs < 22) {
-    oops = `Oops. Standby, ${friend}.`
   } else {
-    oops = `... '-' ...`
+    oops = `Oops. Standby, ${friend}.`
   }
 
   document.getElementById('oops').innerText = oops.toLocaleUpperCase();
