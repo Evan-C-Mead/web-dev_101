@@ -14,7 +14,7 @@ function sayOops() {
   } else if (hrs < 16) {
     oops = `${broham}, please select a source.`
   } else {
-    oops = `Oops. Standby, ${friend}.`
+    oops = `Oops. Please standby. Get it together ${broham}.`
   }
 
   document.getElementById('oops').innerText = oops.toLocaleUpperCase();

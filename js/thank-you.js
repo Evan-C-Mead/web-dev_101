@@ -3,13 +3,12 @@
 function sayThankYou() {
   const date = new Date();
   const hrs = date.getHours();
-  let friend = 'friend';
   let thankYou;
 
   if (hrs < 9) {
-    thankYou = `Ending soon. Thanks for stopping by, ${friend}.`;
+    thankYou = `Ending soon. Thanks for stopping by.`;
   } else {
-    thankYou = `Thank you. See you next time, ${friend}.`
+    thankYou = `Thank you. See you next time.`
   }
 
   document.getElementById('thank-you').innerText = thankYou.toLocaleUpperCase();

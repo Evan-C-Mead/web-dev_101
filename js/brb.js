@@ -4,15 +4,12 @@ function sayBRB() {
   const date = new Date();
   const hrs = date.getHours();
   let broham = 'broham';
-  let friend = 'friend';
   let brb;
 
-  if (hrs < 8) {
-    brb = `Be right back, ${friend}.`;
-  } else if (hrs < 16) {
+  if (hrs < 16) {
     brb = `${broham} will be right back.`;
   } else {
-    brb = `Be right back, ${friend}. Please standby.`;
+    brb = `Be right back. Please standby.`;
   }
 
   document.getElementById('brb').innerText = brb.toLocaleUpperCase();
