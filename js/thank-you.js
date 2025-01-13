@@ -6,9 +6,9 @@ function sayThankYou() {
   let thankYou;
 
   if (hrs < 9) {
-    thankYou = `Ending soon. Thanks for stopping by.`;
+    thankYou = `Thank you. See you next time.`;
   } else {
-    thankYou = `Thank you. See you next time.`
+    thankYou = `Thanks for tuning in. See you next time.`
   }
 
   document.getElementById('thank-you').innerText = thankYou.toLocaleUpperCase();
