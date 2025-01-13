@@ -11,10 +11,10 @@ function sayOops() {
     oops = `... '-' ...`
   } else if (hrs < 8) {
     oops = `You weren't supposed to see this...`
-  } else if (hrs < 16) {
+  } else if (hrs < 22) {
     oops = `${broham}, please select a source.`
   } else {
-    oops = `Oops. Please standby. Get it together ${broham}.`
+    oops = `Oops. Please standby.`
   }
 
   document.getElementById('oops').innerText = oops.toLocaleUpperCase();
