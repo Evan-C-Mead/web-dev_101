@@ -4,7 +4,6 @@ html {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: Arial, Ubuntu, sans-serif;
 }
 
 body {
@@ -21,9 +20,7 @@ body {
   align-self: center;
   justify-content: center;
   margin: 20px;
-  font-family: "Orbitron";
-  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  font-family: "Oxanium";
 }
 
 #time {
@@ -31,22 +28,18 @@ body {
   display: flex;
   align-self: center;
   justify-content: center;
-  font-family: "digital-clock-font", monospace;
+  font-family: "Oxanium";
 }
 
-#guess {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  margin: 20px 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+@keyframes fadeInOut {
+  0% { opacity: 1; }          /* Start fully visible */
+  30% { opacity: 0.3; }       /* Fade out to translucent */
+  40% { opacity: 0.3; }       /* Pause at translucent */
+  70% { opacity: 1; }         /* Fade back in to fully visible */
+  100% { opacity: 1; }        /* Pause at full opacity */
 }
 
-#guessText {
-  margin-right: 10px;
-  text-transform: uppercase;
-  color: goldenrod;
+#oops {
+  animation: fadeInOut 15s infinite;
+  animation-delay: 10s;
 }
-
-/* want to style the form and submit button */

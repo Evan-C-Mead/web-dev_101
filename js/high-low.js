@@ -24,5 +24,3 @@ function guess() {
 }
 
 guess();
-
-function newFunc() {}
