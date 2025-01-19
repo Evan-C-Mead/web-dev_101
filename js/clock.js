@@ -96,7 +96,6 @@ function displayTime() {
   let styledTime = time.replace(/\|/g, `<span id="vertLine" class="vertLine" style="color: #ffb700;">|</span>`);
 
   document.getElementById('time').innerHTML = styledTime.toLocaleUpperCase();
-
   setTimeout(displayTime, 1000);
 }
 

@@ -10,6 +10,14 @@ body {
   background-color: #15091b;
 }
 
+@keyframes fadeInOut {
+  0% { opacity: 1; }          /* Start fully visible */
+  30% { opacity: 0.3; }       /* Fade out to translucent */
+  40% { opacity: 0.3; }       /* Pause at translucent */
+  70% { opacity: 1; }         /* Fade back in to fully visible */
+  100% { opacity: 1; }        /* Pause at full opacity */
+}
+
 #main {
   margin-top: 50px;
 }
@@ -19,8 +27,13 @@ body {
   display: flex;
   align-self: center;
   justify-content: center;
-  margin: 20px;
+  margin: 10px 10px;
   font-family: "Oxanium";
+}
+
+#oops {
+  animation: fadeInOut 15s infinite;
+  animation-delay: 10s;
 }
 
 #time {
@@ -29,17 +42,4 @@ body {
   align-self: center;
   justify-content: center;
   font-family: "Oxanium";
-}
-
-@keyframes fadeInOut {
-  0% { opacity: 1; }          /* Start fully visible */
-  30% { opacity: 0.3; }       /* Fade out to translucent */
-  40% { opacity: 0.3; }       /* Pause at translucent */
-  70% { opacity: 1; }         /* Fade back in to fully visible */
-  100% { opacity: 1; }        /* Pause at full opacity */
-}
-
-#oops {
-  animation: fadeInOut 15s infinite;
-  animation-delay: 10s;
 }
