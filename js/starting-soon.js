@@ -6,10 +6,8 @@ function startingSoon() {
   let broham = 'broham';
   let startSoon;
 
-  if (hrs < 8) {
-    startSoon = `Hello! See you soon.`;
-  } else if (hrs < 16) {
-    startSoon = `Starting soon.`;
+  if (hrs < 16) {
+    startSoon = `${broham} is almost ready.`;
   } else {
     startSoon = `Hang tight. ${broham} is on the way.`
   }

@@ -92,10 +92,10 @@ function displayTime() {
       break;
   }
 
-  let time = `${dayOfWeek} | ${month} ${dayOfMonth}, ${year} | ${hr}:${min}:${sec} ${tod}`;
-  let styledTime = time.replace(/\|/g, `<span id="vertLine" class="vertLine" style="color: #ffb700;">|</span>`);
+  let time = `${dayOfWeek} | ${month} ${dayOfMonth}, ${year} | ${hr}:${min}:${sec} ${tod}`.toLocaleUpperCase();
+  let styledTime = time.replace(/\|/g, `&nbsp;<span id="vertLine" class="vertLine" style="color: #ffb700;">|</span>&nbsp;`);
 
-  document.getElementById('time').innerHTML = styledTime.toLocaleUpperCase();
+  document.getElementById('time').innerHTML = styledTime;
   setTimeout(displayTime, 1000);
 }
 
