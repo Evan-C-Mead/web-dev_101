@@ -11,8 +11,7 @@ function sayThankYou() {
     thankYou = `Thanks for tuning in. See you next time.`
   }
 
-  document.getElementById('thank-you').innerText = thankYou.toLocaleUpperCase();
-  document.getElementById('thank-you').textContent = thankYou.toLocaleUpperCase();
+  document.getElementById('thank-you').textContent = thankYou.toUpperCase();
 }
 
 sayThankYou();

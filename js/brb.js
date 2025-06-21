@@ -12,8 +12,7 @@ function sayBRB() {
     brb = `Be right back. Please standby.`;
   }
 
-  document.getElementById('brb').innerText = brb.toLocaleUpperCase();
-  document.getElementById('brb').textContent = brb.toLocaleUpperCase();
+  document.getElementById('brb').textContent = brb.toUpperCase();
 }
 
 sayBRB();

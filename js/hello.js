@@ -24,8 +24,7 @@ function sayGreeting() {
     greeting = `${broham}, go to bed.`;
   }
 
-  document.getElementById('greeting').innerText = greeting.toLocaleUpperCase();
-  document.getElementById('greeting').textContent = greeting.toLocaleUpperCase();
+  document.getElementById('greeting').textContent = greeting.toUpperCase();
 }
 
 sayGreeting();

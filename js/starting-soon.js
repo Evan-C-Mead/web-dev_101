@@ -12,8 +12,7 @@ function startingSoon() {
     startSoon = `Hang tight. ${broham} is on the way.`
   }
 
-  document.getElementById('starting-soon').innerText = startSoon.toLocaleUpperCase();
-  document.getElementById('starting-soon').textContent = startSoon.toLocaleUpperCase();
+  document.getElementById('starting-soon').textContent = startSoon.toUpperCase();
 }
 
 startingSoon();

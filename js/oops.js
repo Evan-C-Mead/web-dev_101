@@ -16,8 +16,7 @@ function sayOops() {
     oops = `Oops. Please standby.`
   }
 
-  document.getElementById('oops').innerText = oops.toLocaleUpperCase();
-  document.getElementById('oops').textContent = oops.toLocaleUpperCase();
+  document.getElementById('oops').textContent = oops.toUpperCase();
 }
 
 sayOops();

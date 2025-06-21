@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Evan\\d3v_th4ngz\\web-dev_101\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evan\\d3v_th4ngz\\web-dev_101\\js\\brb.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:js\\brb.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evan\\d3v_th4ngz\\web-dev_101\\hello-world.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hello-world.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evan\\d3v_th4ngz\\web-dev_101\\js\\brb.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:js\\brb.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "brb.js",
               "DocumentMoniker": "C:\\Users\\Evan\\d3v_th4ngz\\web-dev_101\\js\\brb.js",
               "RelativeDocumentMoniker": "js\\brb.js",
@@ -42,20 +42,20 @@
               "RelativeToolTip": "js\\brb.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-01T02:28:45.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T02:28:45.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "hello-world.html",
               "DocumentMoniker": "C:\\Users\\Evan\\d3v_th4ngz\\web-dev_101\\hello-world.html",
               "RelativeDocumentMoniker": "hello-world.html",
               "ToolTip": "C:\\Users\\Evan\\d3v_th4ngz\\web-dev_101\\hello-world.html",
               "RelativeToolTip": "hello-world.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-01T02:28:42.5Z"
+              "WhenOpened": "2024-08-01T02:28:42.5Z",
+              "EditorCaption": ""
             }
           ]
         }
