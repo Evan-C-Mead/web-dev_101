@@ -6,8 +6,10 @@ function sayBRB() {
   let broham = 'broham';
   let brb;
 
-  if (hrs < 16) {
-    brb = `Be right back. Please standby.`;
+  if (hrs < 7) {
+    brb = `Coffee refill. Hang tight.`;
+  } else if (hrs < 17) {
+    brb = `${broham} will return shortly.`
   } else {
     brb = `${broham} will be right back.`;
   }
