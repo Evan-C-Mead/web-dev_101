@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "hello-world.html",
               "ToolTip": "C:\\Users\\Evan\\d3v_th4ngz\\web-dev_101\\hello-world.html",
               "RelativeToolTip": "hello-world.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-08-01T02:28:42.5Z",
               "EditorCaption": ""
@@ -55,8 +55,11 @@
               "RelativeToolTip": "js\\clock.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-27T14:08:56.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T14:08:56.786Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

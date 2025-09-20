@@ -4,7 +4,6 @@ function displayTime() {
   let date = new Date();
   let hr = date.getHours();
   let min = date.getMinutes();
-  let sec = date.getSeconds();
   let tod = 'AM';
   // indices align with date.getDay() and date.getMonth() return values (0-based)
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -29,9 +28,8 @@ function displayTime() {
   // adds a '0' to the front of the returning variable if it is less than 10 so the variable will always display two digits. by default, any number less than 10 returns a single digit -> '7' vs '07'
   hr = hr < 10 ? '0' + hr : hr;
   min = min < 10 ? '0' + min : min;
-  sec = sec < 10 ? '0' + sec : sec;
 
-  let time = `${dayOfWeek} | ${month} ${dayOfMonth}, ${year} | ${hr}:${min}:${sec} ${tod}`.toUpperCase();
+  let time = `${dayOfWeek} | ${month} ${dayOfMonth}, ${year} | ${hr}:${min} ${tod}`.toUpperCase();
   let styledTime = time.replace(/\|/g, `&nbsp;<span id="vertLine" class="vertLine" style="color: #ffb700;">|</span>&nbsp;`);
 
   document.getElementById('time').innerHTML = styledTime;
