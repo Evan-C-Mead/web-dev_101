@@ -15,7 +15,7 @@ function sayGreeting() {
   } else if (hrs < 13) {
     greeting = `${broham}, it's time for lunch.`;
   } else if (hrs < 17) {
-    greeting = `Good afternoon, ${broham}.`;
+    greeting = `Good afternoon.`;
   } else if (hrs < 19) {
     greeting = `Beef. It's what's for dinner.`;
   } else if (hrs < 22) {
