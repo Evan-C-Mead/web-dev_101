@@ -7,7 +7,7 @@ function sayGreeting() {
   let greeting;
 
   if (hrs < 4) {
-    greeting = `You're a night owl, ${broham}.`;
+    greeting = `We should be asleep, ${broham}.`;
   } else if (hrs < 8) {
     greeting = `Coffee time.`;
   } else if (hrs < 11) {
