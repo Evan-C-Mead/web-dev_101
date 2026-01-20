@@ -5,10 +5,10 @@ function sayThankYou() {
   const hrs = date.getHours();
   let thankYou;
 
-  if (hrs < 9) {
-    thankYou = `Thank you. See you next time.`;
+  if (hrs < 12) {
+    thankYou = `Thanks for tuning in. See you next time.`;
   } else {
-    thankYou = `Thanks for tuning in. See you next time.`
+    thankYou = `See you next time. Thanks for being here.`
   }
 
   document.getElementById('thank-you').textContent = thankYou.toUpperCase();

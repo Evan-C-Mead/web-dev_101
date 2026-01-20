@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.idea",
+    "\\css",
     "\\js"
   ],
+  "SelectedNode": "\\css\\hello-world.css",
   "PreviewInSolutionExplorer": false
 }

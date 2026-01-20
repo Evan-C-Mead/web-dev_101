@@ -18,10 +18,10 @@ function sayGreeting() {
     greeting = `Good afternoon.`;
   } else if (hrs < 19) {
     greeting = `Beef. It's what's for dinner.`;
-  } else if (hrs < 22) {
+  } else if (hrs < 23) {
     greeting = `Good evening.`;
   } else {
-    greeting = `${broham}, go to bed.`;
+    greeting = `${broham}, it's getting late.`;
   }
 
   document.getElementById('greeting').textContent = greeting.toUpperCase();
