@@ -5,7 +5,7 @@ function sayThankYou() {
   const hrs = date.getHours();
   let thankYou;
 
-  if (hrs < 11) {
+  if (hrs < 12) {
     thankYou = `Thanks for tuning in. See you next time.`;
   } else {
     thankYou = `See you next time. Thanks for dropping by.`
