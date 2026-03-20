@@ -15,6 +15,7 @@ function sayBRB() {
   }
 
   document.getElementById('brb').textContent = brb.toUpperCase();
+  setTimeout(sayBRB, 1000);
 }
 
 sayBRB();

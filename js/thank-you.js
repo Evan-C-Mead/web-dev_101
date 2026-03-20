@@ -12,6 +12,7 @@ function sayThankYou() {
   }
 
   document.getElementById('thank-you').textContent = thankYou.toUpperCase();
+  setTimeout(sayThankYou, 1000);
 }
 
 sayThankYou();

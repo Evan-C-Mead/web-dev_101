@@ -15,6 +15,7 @@ function sayOops() {
   }
 
   document.getElementById('oops').textContent = oops.toUpperCase();
+  setTimeout(sayOops, 1000);
 }
 
 sayOops();

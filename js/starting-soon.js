@@ -13,6 +13,7 @@ function startingSoon() {
   }
 
   document.getElementById('starting-soon').textContent = startSoon.toUpperCase();
+  setTimeout(startingSoon, 1000);
 }
 
 startingSoon();
