@@ -25,6 +25,7 @@ function sayGreeting() {
   }
 
   document.getElementById('greeting').textContent = greeting.toUpperCase();
+  setTimeout(sayGreeting, 1000);
 }
 
 sayGreeting();
