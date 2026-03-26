@@ -7,11 +7,11 @@ function sayBRB() {
   let brb;
 
   if (hrs < 8) {
-    brb = `${broham} will be right back.`;
+    brb = `Coffee refill. Hang tight.`;
   } else if (hrs < 16) {
     brb = `${broham} will return shortly.`
   } else {
-    brb = `Coffee refill. Hang tight.`;
+    brb = `${broham} will be right back.`;
   }
 
   document.getElementById('brb').textContent = brb.toUpperCase();

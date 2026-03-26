@@ -9,7 +9,7 @@ function startingSoon() {
   if (hrs < 16) {
     startSoon = `${broham} will be here soon.`;
   } else {
-    startSoon = `Hang tight. ${broham} is on the way.`
+    startSoon = `Hang tight. ${broham} is on the way.`;
   }
 
   document.getElementById('starting-soon').textContent = startSoon.toUpperCase();
